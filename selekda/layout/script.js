@@ -14,7 +14,7 @@ nav.innerHTML = `
                     <img src="./assets/logo.png" alt="logo" />
                 </div>
                 <ul class="menu-nav">
-                    <li><a href="/">Home</a></li>
+                    <li><a href="./index.html">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Contact</a></li>
