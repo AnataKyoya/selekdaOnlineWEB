@@ -2,6 +2,9 @@
 let nav = document.querySelector(".nav");
 let footer = document.querySelector(".footer");
 
+let uri = window.location.href;
+uri = uri.replace(uri.split("/")[uri.split("/").length - 1], "index.html");
+
 footer.innerHTML = `
 <footer>
                 &copy; 2024 Designed by Aldo Natanael Sihaloho
@@ -14,7 +17,7 @@ nav.innerHTML = `
                     <img src="./assets/logo.png" alt="logo" />
                 </div>
                 <ul class="menu-nav">
-                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="${uri}">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Contact</a></li>
